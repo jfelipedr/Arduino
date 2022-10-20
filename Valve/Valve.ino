@@ -22,8 +22,6 @@ void loop()
   digitalWrite(START, HIGH);
   digitalWrite(STOP_VALVE, HIGH);
   //Mientras valve este HIGH la valvula estara CERRADA, por eso se comienza en high
-  //Mientras valve este HIGH la valvula estara CERRADA, por eso se comienza en high
-  //Mientras valve este HIGH la valvula estara CERRADA, por eso se comienza en high
   digitalWrite(VALVE, HIGH);
   
   if( digitalRead(START) == LOW )

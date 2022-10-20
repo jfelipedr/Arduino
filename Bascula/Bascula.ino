@@ -7,7 +7,7 @@
 #include <Q2HX711.h>              //Downlaod from here: https://electronoobs.com/eng_arduino_hx711.php
 //LCD config
 #include <Wire.h> 
-#include <LiquidCrystal_I2C.h> //Download here: https://electronoobs.com/eng_arduino_liq_crystal.php
+#include <LiquidCrystal_I2C.h>    //Download here: https://electronoobs.com/eng_arduino_liq_crystal.php
 LiquidCrystal_I2C lcd(0x3f,20,4); //sometimes the LCD adress is not 0x3f. Change to 0x27 if it dosn't work.
 
 

@@ -2,9 +2,9 @@
 
 //PINS FOR HX711
 
-const int DOUT_PIN = 3;
-const int SCK_PIN = 2;
-long READING = 0;
+const int DOUT_PIN  =  3;
+const int SCK_PIN   =  2;
+long READING        =  0;
 
 
 //ANTI-DEBOUNCE
